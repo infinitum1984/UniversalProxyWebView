@@ -61,9 +61,9 @@ public class Config {
         UserHost = SharedPreferencesData.get_data(c,user_host_key,"");
         UserPort=SharedPreferencesData.get_data(c,user_port_key,0);
     }
-    public static void saveUserProxy(Context c, ProxyData proxyData){
-        SharedPreferencesData.save_data(c,user_host_key,proxyData.Host);
-        SharedPreferencesData.save_data(c,user_port_key,proxyData.Port);
+    public static void saveUserProxy(Context c, String host, int port){
+        SharedPreferencesData.save_data(c,user_host_key,host);
+        SharedPreferencesData.save_data(c,user_port_key,port);
     }
     public static void  deleteUserProxy(Context c){
         SharedPreferencesData.delete_data(c,user_host_key);

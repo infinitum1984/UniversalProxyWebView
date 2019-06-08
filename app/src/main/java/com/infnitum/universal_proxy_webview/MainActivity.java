@@ -48,7 +48,7 @@ public class MainActivity extends Activity
 
     public View mDecorView;
 
-    ProxyData FireProxy;
+
 
     EditText ViewHost;
     EditText ViewPort;
@@ -278,17 +278,17 @@ public class MainActivity extends Activity
 //        }
 
         if ((!ViewHost.getText().equals("")) && (!ViewPort.getText().equals("")) ) {
-            ProxyData p = new ProxyData();
-            p.Host = ViewHost.getText().toString();
+           String h = ViewHost.getText().toString();
+           int p;
             try {
-                p.Port = Integer.parseInt(String.valueOf(ViewPort.getText()));
+                p= Integer.parseInt(String.valueOf(ViewPort.getText()));
 
             } catch (Exception e) {
                 Toast.makeText(getApplicationContext(), getString(R.string.Input_error), Toast.LENGTH_SHORT).show();
                 return;
             }
             Config.saveSetProxyState(getApplicationContext(),true);
-            Config.saveUserProxy(getApplicationContext(), p);
+            Config.saveUserProxy(getApplicationContext(), h,p);
             doRestart(getApplicationContext());
 
 
