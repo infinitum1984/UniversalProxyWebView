@@ -13,9 +13,9 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class Proxy {
-    static final int PROXY_CHANGED = 193;
    static String LOG_TAG = "myapp";
     public static void setProxy(String host, int port, WebView webView, Context c){
+
         if (Build.VERSION.SDK_INT<16){
             setProxyICS(webView,host,port);
             return;
