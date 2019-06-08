@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Proxy WebView</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="setting">Настройки</string>
+    <string name="apply">Apply</string>
+    <string name="to_default">Default</string>
+
+    <string name="loading_video">Loading video…</string>
+    <string name="host">Host:</string>
+
+    <string name="Control_panel">Control panel</string>
+    <string name="Proxy">Proxy</string>
+    <string name="none">None</string>
+    <string name="refresh_page">Update page with a swipe down.</string>
+<string name="link_copied">Link copied</string>
+    <string name="Input_error">Input Error!</string>
+</resources>
