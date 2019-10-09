@@ -13,6 +13,7 @@ This application with which you can quickly change the proxy settings of the bui
 <p align="left">
   <img src="app/src/main/assets/Screenshot_2019-10-09-18-36-34-328_com.infnitum.universal_proxy_webview.png" width="200" title="hover text">
 </p>
+
 ### Usage
 
 if you just want to use a proxy in your proxy, then you just need to call the method 
