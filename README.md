@@ -19,6 +19,14 @@ This application with which you can quickly change the proxy settings of the bui
 if you just want to use a proxy in your proxy, then you just need to call the method 
 setProxy() in class Proxy. 
 
+---
+```java
+setProxy("my_host",777,myWebView,this);
+
+```
+
+---
+
 ### Test App
 * [Download APK](https://github.com/infinitum1984/UniversalProxyWebView/blob/master/app/src/main/assets/proxy_webview.apk) 
 
