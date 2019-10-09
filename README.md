@@ -21,7 +21,7 @@ setProxy() in class Proxy.
 
 ---
 ```java
-setProxy("my_host",777,myWebView,this);
+Proxy.setProxy("my_host",777,myWebView,this);
 
 ```
 
