@@ -1,5 +1,5 @@
 
-# Simple News App (quick proxy changer)
+# Proxy WebView (quick proxy changer)
 <p align="left">
   <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" width="100" title="hover text">
 </p>
